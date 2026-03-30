@@ -25,6 +25,6 @@ jobs:
             --exclude ".github/workflows/**" \
             --delete-excluded \
             --progress \
-            --verbose
+            --log-level INFO
         env:
           RCLONE_LOG_LEVEL: INFO
